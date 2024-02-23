@@ -1,6 +1,6 @@
-# crud
+# To-Do List
 
-**Author**: Daniel
+**Author**: Daniel Ekema
 
 ## Overview
 Practice in setting up a Full Stack CRUD application from scratch
