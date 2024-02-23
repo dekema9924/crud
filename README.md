@@ -4,8 +4,8 @@
 
 ## Overview
 Practice in setting up a Full Stack CRUD application from scratch
-* A public facing page for contact form submissions
-* A 'private' facing page for managing the submissions
+* A simple design for adding tasks
+
 
 ## Getting Started
 * Make sure to install the required npm scripts.
