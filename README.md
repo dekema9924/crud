@@ -9,20 +9,20 @@ Practice in setting up a Full Stack CRUD application from scratch
 
 ## Getting Started
 * Make sure to install the required npm scripts.
-* There is no starter data in the database. To enter in new contact form submissions, enter in new submissions in the index.html page.
 
 ## Architecture
 This exercise includes these technologies:
 <<<<<<< HEAD
 * JavaScript
-* MongoDB
+* MongoDB/Mongoose
 * NPM
 * Express
-* Nodemon
+* EJS Template Engine
 =======
 * Bodyparser
+* Nodemon
 
 ## Project summary
-* Basic application is function. Able to get info from user and add a to do list.
+* Basic todo application. Able to get add and delete tasks.
 * CRUD operations.
 
