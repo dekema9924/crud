@@ -61,7 +61,6 @@ form{
     align-items: center;
     justify-content: space-around;
     gap: 100px;
-transition: all .7s;
 }
 a{
     color: white;
@@ -84,4 +83,7 @@ a{
     font-size: .5em;
   }
 
+  .changefont{
+    color: red;
+  }
 

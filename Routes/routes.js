@@ -34,7 +34,7 @@ router.post('/addtask', async (req, res)=>{
 router.get('/addtask', async (req, res)=>{
  await Tasks.find().then(result=>{
     res.render('todo.ejs', {data: result})
-    console.log(result);
+  
  })
 
 })
