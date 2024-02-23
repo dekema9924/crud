@@ -6,7 +6,28 @@
     <title>To-do list</title>
     <link rel="stylesheet" href="../public/todo.css"/>
 <body>
-    <h1>hello</h1>
-    
+    <form action="/routes/addtask" method="post">
+        <div class="task-input">
+            <input type="text" name="task" id="task" placeholder="Enter New Task...">
+            <button class="addtask-btn" type="submit">Add   +</button>
+         </div>
+    </form>
+
+    <div class="white-task-container">
+        <% data.forEach(datas => { %>
+            <div class="task">
+                <div class="left-task">
+                    <input type="checkbox" name="checkbox-input" class="check-with-label" id="">
+                    <label for="checkbox-input" class="label-for-check"><%= datas.task %></label>
+                    <p class="date">created <%= datas.CreatedAt.toLocaleString() %></p>
+                </div>
+                <div class="close">
+                    <a href="/routes/delete/<%=datas.id%>">x</a>
+                </div>
+           </div>
+         
+        <% }) %>
+ 
+    </div>
 </body>
 </html>
